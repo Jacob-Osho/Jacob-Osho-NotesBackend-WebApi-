@@ -8,8 +8,8 @@ namespace NotesApplication.Common.Mappings
     public class AssemblyMappingProfile : Profile
     {
         public AssemblyMappingProfile(Assembly assembly) =>
-            applyMappingsFromAssembly(assembly);
-    private void applyMappingsFromAssembly(Assembly assembly)
+            ApplyMappingsFromAssembly(assembly);
+    private void ApplyMappingsFromAssembly(Assembly assembly)
         {
             var types = assembly.GetExportedTypes()
                 .Where(type =>type.GetInterfaces()
