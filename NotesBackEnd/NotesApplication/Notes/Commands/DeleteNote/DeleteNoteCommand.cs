@@ -2,7 +2,7 @@
 using System;
 
 
-namespace NotesApplication.Notes.Commands.UpdateNote
+namespace NotesApplication.Notes.Commands.DeleteNote
 {
     public class DeleteNoteCommand :IRequest
     {
