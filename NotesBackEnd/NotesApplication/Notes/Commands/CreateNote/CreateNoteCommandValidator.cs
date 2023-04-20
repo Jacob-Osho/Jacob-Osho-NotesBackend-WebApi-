@@ -3,7 +3,7 @@ using System;
 
 namespace NotesApplication.Notes.Commands.CreateNote
 {
-    internal class CreateNoteCommandValidator : AbstractValidator<CreateNoteCommand>
+    public class CreateNoteCommandValidator : AbstractValidator<CreateNoteCommand>
     {
         public CreateNoteCommandValidator()
         {
